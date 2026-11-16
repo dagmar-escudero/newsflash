@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F4F6FA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NewsFlash"
+        android:textColor="#0E7C66"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alerta de noticias de ultima hora"
+        android:textColor="#5A6472"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio sin activar"
+        android:textColor="#1B2A4A"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnActivar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activar revision en segundo plano"
+        android:backgroundTint="#0E7C66"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnPrueba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar notificacion de prueba"
+        android:backgroundTint="#2E4A7A" />
+
+</LinearLayout>
